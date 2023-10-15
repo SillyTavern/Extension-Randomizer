@@ -8,5 +8,6 @@
     "author": "Cohee#1207",
     "version": "1.0.0",
     "generate_interceptor": "randomizerInterceptor",
-    "homePage": "https://github.com/SillyTavern/SillyTavern"
+    "homePage": "https://github.com/SillyTavern/SillyTavern",
+    "auto_update": true
 }
