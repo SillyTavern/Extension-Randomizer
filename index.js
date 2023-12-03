@@ -1,5 +1,5 @@
-import { saveSettingsDebounced } from "../../../../script.js";
-import { extension_settings } from "../../../extensions.js";
+import { saveSettingsDebounced } from '../../../../script.js';
+import { extension_settings } from '../../../extensions.js';
 
 function toggleRandomizedSetting(buttonRef, forId) {
     if (extension_settings.randomizer.controls.indexOf(forId) === -1) {
