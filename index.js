@@ -15,7 +15,7 @@ function toggleRandomizedSetting(buttonRef, forId) {
 
 function addRandomizeButton() {
     const counterRef = $(this);
-    const labelRef = $(this).find('div[data-for]');
+    const labelRef = $(this).find('input[data-for]');
     const isDisabled = counterRef.data('randomization-disabled');
 
     if (labelRef.length === 0 || isDisabled == true) {
