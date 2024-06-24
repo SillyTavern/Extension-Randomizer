@@ -136,7 +136,8 @@ jQuery(() => {
         </div>
     </div>`;
 
-    $('#extensions_settings2').append(html);
+    const getContainer = () => $(document.getElementById('randomizer_container') ?? document.getElementById('extensions_settings2'));
+    getContainer().append(html);
     $('#ai_response_configuration .range-block-counter').each(addRandomizeButton);
     $('#randomizer_enabled').on('input', onRandomizerEnabled);
     $('#randomizer_enabled').prop('checked', extension_settings.randomizer.enabled).trigger('input');
