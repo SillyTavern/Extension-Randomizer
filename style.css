@@ -1,0 +1,3 @@
+.randomize_button.active {
+    outline: 1px solid var(--active);
+}

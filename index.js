@@ -112,6 +112,11 @@ jQuery(() => {
                 <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
             </div>
             <div class="inline-drawer-content">
+                <div>
+                    After enabling this extension, click the new buttons next to the parameters you want to be randomized.
+                    Randomization is active when the button has a solid background with an outline.
+                </div>
+                <br>
                 <label for="randomizer_enabled" class="checkbox_label">
                     <input type="checkbox" id="randomizer_enabled" name="randomizer_enabled" >
                     Enabled
